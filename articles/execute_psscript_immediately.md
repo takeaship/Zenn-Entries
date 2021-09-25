@@ -3,7 +3,7 @@ title: "Powershellスクリプトを「ファイル名を指定して実行」�
 emoji: "💻"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Powershell", "Windows"]
-published: false
+published: true
 ---
 
 # はじめに
