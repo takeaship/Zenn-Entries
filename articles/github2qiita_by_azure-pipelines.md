@@ -1,5 +1,5 @@
 ---
-title: "GitHubで執筆したエントリーをAzure PipelineでQiitaに投稿する"
+title: "GitHubで執筆したエントリーをAzure PipelinesでQiitaに投稿する"
 emoji: "🚀"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Azure Pipelines", "Qiita", "Markdown"]
@@ -13,5 +13,6 @@ Qiita上でどう表示されるかを、執筆途中でPreviewすることは�
 
 # Azure Pipelinesとは
 Microsoftのプロジェクト管理ツールAzure DevOpsに含まれるCI/CDパイプライン構築ツールです。  
-CI/CD 用のMicrosoft ホステッド ジョブを、月1800分まで無料で使えます。  
+CI/CD 用のMicrosoft ホステッド ジョブを、1,800分/月まで無料で使えます。  
 
+# GitHubとAzure Pipelinesを連携する
