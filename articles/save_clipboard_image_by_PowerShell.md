@@ -20,7 +20,7 @@ Windows PCを使っている方にとって、`Win + SHIFT + S` でスクリー�
 
 # Powershellスクリプトの中身
 
-```SaveClipboardImage.ps1
+```Powershell
 
 ```
 
