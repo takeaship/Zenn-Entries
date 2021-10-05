@@ -3,7 +3,7 @@ title: "Microsoft認定資格: Azure Developer Associate を更新しました"
 emoji: "🌈"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["Microsoft", "Azure", "MicrosoftCertified"]
-published: false
+published: true
 ---
 
 19年3月末頃に取得した Microsoft Azure の認定資格 "Azure Developer Associate" が期限切れを迎えたため、更新試験を受けて合格しました。  
