@@ -2,7 +2,7 @@
 title: "完全なくじ引き読書法を実践するためのWebページを作った"
 emoji: "📕"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: ["読書法","技術書"]
+topics: ["読書法","技術書", "Vue.js"]
 published: true
 ---
 
