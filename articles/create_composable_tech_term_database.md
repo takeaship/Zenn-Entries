@@ -3,7 +3,7 @@ title: "Webの最新データで更新可能な技術用語のデータベース
 emoji: "🌐"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["python", "web", "api"]
-published: false
+published: true
 ---
 
 これは [LAPRAS Advent Calendar 2023](https://qiita.com/advent-calendar/2023/lapras) の 5 日目のエントリーです。
@@ -512,16 +512,16 @@ https://search-tech-terms.streamlit.app/
 https://github.com/takeaship/auto-generated-tech-term-database/blob/main/data/stack_exchange_tags_with_stackshare.csv
 
 取得した StackOverflow のタグはすべて含まれています。
-`is_valid=True`のデータが、StackShare の技術ページに見つかったものです。
+`is_valid=True`のデータが、StackShare の技術ページと突合できたものです。
 
 `arrays` `python-3.x` `xml` などのノイズを適切に除去できました。
-一方で、`c++` `amazon web services` なども含めたかったですが、URL との表記が合わず取りこぼしてしまいました。
-こちらはあいまい検索などを利用してすくい取ることを今後の課題としたいです。
+一方で、`c++` `amazon web services` などはタグと URL との表記が合わず取りこぼしてしまいました。
+こちらはあいまい検索などですくい取ることを今後の課題としたいです。
 
 # 無料 & ほどほどの手間で使える技術用語データが構築できた
 
 Web 上に公開されているデータを組み合わせることで、ほどほどの手間でそこそこ使える技術用語データが構築できることがわかりました。
-今回作成したスクリプトを再度実行すれば最新のデータを取得できるので、流行を取り入れて継続的にデータを更新していくことが可能です。
+今回作成したスクリプトを再度実行すれば最新のデータを取得できるので、流行を取り入れて継続的にデータを更新していくことができます。
 ご自身のアプリケーションに組み込んでみてください。
 需要があればライブラリとして組み込めるよう改善していこうと思います。
 
