@@ -1,0 +1,6 @@
+{
+    "pasteimg.path": "${projectRoot}/images/",
+    "pasteimg.basePath": "${projectRoot}",
+    "pasteimg.confirmPattern": "Just Name",
+    "pasteimg.renderPattern": "![](/${imagePath})",
+}
