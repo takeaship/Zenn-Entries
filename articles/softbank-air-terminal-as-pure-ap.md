@@ -1,9 +1,9 @@
 ---
 title: "Softbank Air ターミナルの DHCP を完全に黙らせて純粋な AP として使うハック"
-emoji: "🌊"
+emoji: "📶"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["無線LAN", "hack"]
-published: false
+published: true
 ---
 
 フリマサイトにて 1000 円ほどで投げ売りされている Softbank Air ターミナル。
@@ -60,6 +60,29 @@ _b610h-70a_ では動作確認済みですが、この機種は Wi-Fi 5 まで�
 Air ターミナル3 や Air ターミナル4 Next (_b610-72a_)では動作確認できていませんが、同じ HUAWEI 製のためこの方法で無効化できる可能性があります。
 Air ターミナル5 以降は OPPO 製になりベースとなる設定が大きく変わっている可能性が高く、おそらくできません。
 :::
+
+## ハックの概要
+Air ターミナルの管理画面は次の API で DHCP 設定を保存しています。
+
+`POST /api/dhcp/settings`
+- body: 
+```xml
+<request>
+   <dhcpstartipaddress>192.168.3.254</dhcpstartipaddress>
+   <dhcplannetmask>255.255.255.0</dhcplannetmask>
+   <dhcpipaddress>192.168.3.254</dhcpipaddress>
+   <dhcpstatus>1</dhcpstatus>
+   <dhcpendipaddress>192.168.3.254</dhcpendipaddress>
+   <accessipaddress>172.16.255.254</accessipaddress>
+   <dhcpleasetime>86400</dhcpleasetime>
+</request>
+```
+
+`GET /api/dhcp/settings` で現在の設定を同じ形式で取得できます。 
+
+`dhcpstatus` フィールドが DHCP の on / off フラグになっています。
+このフィールドは管理画面の UI からは変更できず、常に 1 をセットして POST するようになっています。
+これを DevTools で強制的に 0 に上書きして POST します。
 
 ## ハック手順
 
