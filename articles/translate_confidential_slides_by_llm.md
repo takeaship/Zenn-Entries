@@ -3,7 +3,7 @@ title: "社外秘のスライドを Amazon Bedrock の Claude で韓国語に翻
 emoji: "🔀"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["aws", "bedrock", "llm", "claude", "ai"]
-published: false
+published: true
 ---
 
 :::message
