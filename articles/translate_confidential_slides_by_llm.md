@@ -202,7 +202,7 @@ LLM は性質の異なるタスクを同時に実行するのが苦手なよう�
 
 ## オジマさんの資金調達話
 
-その後、**辣腕[オジマさん](https://note.com/ojimakoto/)の尽力により、韓国籍のパートナー企業 [Wanted Lab](https://wantedlab.com/) から資金調達を受けることができました。**
+その後、**辣腕[オジマさん](https://note.com/ojimakoto/)の尽力により、韓国籍のパートナー企業 [Wanted Lab](https://wantedlab.com/) から出資を受けることができました。**
 
 https://prtimes.jp/main/html/rd/p/000000092.000024729.html
 
